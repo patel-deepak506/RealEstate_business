@@ -1,0 +1,506 @@
+/* ------------------------------------------ */
+/* .............Basic Setup........... */
+/* ------------------------------------------ */
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+@font-face {
+    font-family:Babes-Neue;
+    src: url("../product-sans/BebasNeue-Regular.ttf");
+}
+
+/* button-clone */
+
+.add-more {
+    font-size: 15px;
+    padding: 10px;
+    background-color: blue;
+    margin-bottom: 20px;
+}
+
+.d-none {
+    display: none;
+}
+
+.add-section {
+    width: 10vw;
+    height: 10vw;
+    position: fixed;
+    top: 25%;
+    left: 30%;
+    display: flex;
+}
+
+/* ------------------------------------------ */
+/* .............Header Sections........... */
+/* ------------------------------------------ */
+
+.header-section {
+    position:fixed;
+    width: 100%;
+    top: 0;
+    z-index: 1;
+    background:white;
+    box-shadow: 0px 5px 5px #12314729;
+}
+
+.header-main-div {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 0 1.2vw;
+}
+
+.appscrip-logo {
+    width: 10.10vw;
+    height: 2.86vw;
+    object-fit: cover;
+    padding: 0.5vw 0;
+    cursor: pointer;
+}
+
+
+.dropdown-content {
+    display: none;
+    background-color: #f1f1f1;
+    overflow: auto;
+
+    z-index: 1;
+  }
+  
+  .dropdown-content a {
+    color: black;
+    padding: 12px 16px;
+    text-decoration: none;
+    display: block;
+  }
+  
+  .dropdown a:hover {background-color: #ddd;}
+  
+  .show {display: block;}
+
+.second-part {
+    display: flex;
+    align-items: center;
+}
+.navs-parts {
+    font-size: 16px;
+    border: none;
+    outline: none;
+    background-color: transparent;
+    padding-right: 4vw;
+    text-decoration: none;
+    color: black;
+}
+
+.navs-part-blog {
+    padding-right: 4vw;
+}
+
+.dropdown {
+    position: relative;
+    display: inline-block;
+  }
+  
+.dropdown-content {
+    display: none;
+    position: absolute;
+    background-color: #f9f9f9;
+    /* min-width: 160px; */
+    right: 10%;
+    box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.2);
+    padding: 12px 16px;
+    z-index: 1;
+}
+  
+.dropdown:hover .dropdown-content {
+    display: block;
+}
+
+.phone-call {
+    width: 1.5vw;
+    height: 1.5vw;
+    
+}
+
+.phone-call-link{
+    width: 3.3vw;
+    height: 2.5vw;
+    background-color: #0274be;
+    display: flex;
+    border-radius: 5px;
+    margin-right: 1vw;
+    justify-content: center;
+    align-items: center;
+}
+
+
+.contact-us {
+    font-size: 16px;
+    color: white;
+    padding: 0.56vw 0.84vw ;
+    background-color: green;
+    border: none;
+    border-radius: 5px;
+    margin: 1vw 0;
+    cursor: pointer;
+}
+
+/* ------------------------------------------ */
+/* .............Hero Section........... */
+/* ------------------------------------------ */
+
+.hero-bg-image {
+    background-image: url("./img/hero-background.jpg");
+    width: 100%;
+    padding: 10vw 5vw;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.part-of-hero {
+    display: flex;
+    justify-content: space-between;
+    padding: 0 5vw;
+}
+
+.hero-text-area {
+    width: 50vw;
+}
+
+.hero-home-image {
+    width: 7.81vw;
+    height: 2.39vw;
+}
+
+.hero-head {
+    color: #ffffff;
+    font-size:50px;
+    font-family: Babes-Neue;
+    font-weight: 100;
+    margin: 20px 0;
+}
+
+.hero-para {
+    font-size: 20px;
+    color: #ffffff;
+    font-family: Poppins;
+    line-height: 35px;
+    letter-spacing: 0.2px;  
+}
+
+.get-in-touch ,
+.pricing {
+    font-size: 17px;
+    color: #ffffff;
+    font-family: Poppins;
+    font-weight: 600;
+    padding: 0.78vw 1.56vw;
+    background-color: #2347bc;
+    border-radius: 5px;
+    cursor: pointer;
+    border: none;
+    outline: none;
+}
+
+.get-in-touch {
+    margin-right:0.65vw ;
+}
+
+.get-in-touch:hover,
+.pricing:hover {
+    transform: scale(0.9);
+    transition: 0.3s;
+}
+
+.mobile-parent {
+    width: 30vw;
+}
+.hero-mobile {
+    width: 15.88vw;
+    height: 32.40vw;
+}
+
+
+/* ------------------------------------------ */
+/* .............Seamlessly Connecting........... */
+/* ------------------------------------------ */
+
+.seamessly-main-parent {
+    text-align: center;
+}
+
+.connecting-parts {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.head-parent{
+    display: flex;
+    justify-content: center;
+}
+.seamessly-head {
+    font-size: 38px;
+    margin: 2.60vw 0;
+    font-family: Babes-Neue;
+    font-weight: 400;
+    padding: 0.5vw 19vw;
+}
+
+.parent-para {
+    padding: 0.5vw;
+    display: flex;
+    font-family: Poppins;
+    justify-content: center; 
+}
+
+.seamessly-para  {
+    font-size: 17px;
+    padding: 0 20vw 1.56vw ;
+    font-family: Poppins;
+    font-weight: 500;
+}
+
+.seamless-parent {
+    width: 21vw;
+}
+.propery-image {
+    width: 9.37vw;
+    height: 9.37vw;
+    margin-bottom: 1.2vw;
+}
+
+.image-down-text {
+    font-size: 16px;
+    font-family: sans-serif;
+    margin-bottom: 1.56vw;
+}
+
+/* ------------------------------------------ */
+/* .............HOME.LY GRAPHICAL FLOW........... */
+/* ------------------------------------------ */
+
+.child-mobile ,
+.child-mobile-down {
+    display: flex;
+}
+
+
+.homely-section {
+    width: 100%;
+    background-color: #0033cc;
+}
+
+.side-padding {
+    padding: 3% 4% 0 4%;
+}
+
+.parent-homely {
+    display: flex;
+    justify-content: center;
+}
+.homely-head {
+    font-size: 45px;
+    font-family:Babes-Neue;
+    font-weight: 500;
+    color: #ffffff;
+    padding: 4% 0;
+}
+
+.parent-up-text {
+    padding-top: 2.87vw;
+    width: 30vw;
+    font-family: Poppins;
+    font-weight: 400;
+    padding-left: 1vw;
+}
+
+.parent-text {
+    padding-top: 40%;
+    text-align: right;
+    font-family: Babes-Neue;
+    font-weight: 400;
+    width: 30vw;
+    padding-right: 1vw;
+}
+
+.real-estate-head {
+    font-size: 25px;
+    font-family: Babes-Neue;
+    line-height: 1em;
+    letter-spacing: 2.6px;
+    color: #ffffff;
+    line-height: 1.3;
+    margin-top: 1.20vw;
+    
+}
+
+.real-estate-para {
+    font-size: 15px;
+    font-family:Poppins;
+    font-weight: 800;
+    color: #ffffff;
+    font-family: Poppins;
+    padding: 1.56vw 20vw 1.56vw 0;
+}
+
+.super-parent-mobile {
+    padding: 4%;
+}
+
+.parent-mobile {
+    display: flex;
+    justify-content: space-between;
+}
+
+.mobile-head {
+    font-size: 20px;
+    font-family: Poppins;
+    font-weight: 600;
+    color: #ffffff;
+    margin-bottom: 3vw;
+}
+
+.mobile-para {
+    font-size: 14px;
+    font-family:Poppins;
+    font-weight: 400;
+    color: #ffffff;
+}
+
+.mobiles-images {
+    width: 15.625vw;
+    height: 31.87vw;
+}
+
+/* ------------------------------------------ */
+/* .............Admin Panel.......... */
+/* ------------------------------------------ */
+
+.parent-admin-text {
+    text-align: center;
+    display: flex;
+    justify-content: center;
+}
+
+.admin-panel-head {
+    font-size: 2.5vw;
+    font-family: Babes-Neue;
+    font-weight: 500;
+    width: 41.97vw;
+    padding: 2.60vw 0  0.56vw 0 ;
+}
+
+.admin-panel-para {
+    font-size: 0.89vw;
+    font-family: Poppins;
+    font-weight: 500;
+    width: 47.81vw;
+    color: #5c5c5c;
+    margin-bottom: 1.55vw;
+}
+
+.parent-admin-card {
+    font-size: 2.86vw;
+    width: 21.42vw;
+    padding: 1.56vw 2.52vw;
+    text-align: center;
+}
+
+.parent-admin-card:hover {
+    box-shadow: 0px 5px 20px #12314729;
+}
+
+.admin-panel-image {
+    width: 2.86vw;
+    height: 2.86vw;
+}
+
+.parene-second-admin {
+    display: flex;
+    justify-content: center;
+    margin-bottom: 2vw;
+}
+
+.admin-card-head {
+    font-size: 0.92vw;
+    color: #000000;
+    font-family: Poppins;
+    font-weight: 700;
+}
+
+.admin-card-para {
+    font-size: 0.83vw;
+    color: #656565;
+    font-family: Poppins;
+    font-weight: 400;
+}
+
+/* ------------------------------------------ */
+/* .............Development Company.......... */
+/* ------------------------------------------ */
+
+.app-development-image {
+    width: 2.75vw;
+    height: 2.7vw;
+    margin-bottom: 1.30vw;
+}
+
+.child-development {
+    display: flex;
+    justify-content: center;
+    padding: 4% 3%;
+}
+
+.development-card {
+    width: 21.43vw;
+    padding-right: 2.91vw;
+}
+
+.development-head {
+    font-size: 1.2vw;
+    font-family: Poppins;
+    font-weight: 700;
+    color: #000000;
+    margin-bottom: 0.78vw;
+}
+
+.development-para {
+    font-size: 0.83vw;
+    font-family: Poppins;
+    font-weight: 400;
+    color: #656565;
+}
+
+/* ------------------------------------------ */
+/* .............Technology.......... */
+/* ------------------------------------------ */
+
+.technology-section {
+    width: 100%;
+    background:#1E50C3;
+
+}
+
+.parent-technology {
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+}
+
+.technology-head {
+    padding-top: 5vw;
+    font-size: 2.5vw;
+    color: white;
+    font-family:Babes-Neue;
+}
+
+.technology-image {
+    width: 70.54vw;
+    height: 23.23vw;
+}

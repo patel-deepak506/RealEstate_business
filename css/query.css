@@ -1,0 +1,339 @@
+
+/* header section */
+
+@media (max-width:1100px) {
+    .navs-parts {
+        padding-right: 2vw;
+    }
+
+    .header-main-div {
+        margin: 1vw 0;
+    }
+
+}
+
+/* head tripple-line */
+
+@media (min-width:849.98px) {
+    .tripple-line {
+        display: none;
+    }
+
+}
+
+
+
+@media (max-width:850px) {
+    
+    /* header section */
+    .second-part {
+        display: none;
+    }
+    .header-main-div {
+        padding: 0 5vw;
+        margin: 2vw 0;
+    }
+
+    .appscrip-logo {
+        width: 20vw;
+        height: 6vw;
+        object-fit: contain;
+    }
+
+    /* hero- section */
+
+    .hero-bg-image {
+        flex-direction: column-reverse;
+    }
+
+    .hero-text-area {
+        width: 90%;
+    }
+
+    .hero-home-image {
+        width: 12vw;
+        margin-top: 5vw;
+        height: 4vw;
+    }
+
+    .hero-head {
+        font-size: 35px;
+    }
+
+    .hero-para {
+        font-size: 10px;
+        line-height: 15px;
+        padding-bottom: 1vw;
+    }
+
+    .get-in-touch, .pricing {
+        font-size: 10px;
+    }
+
+    /* Srmmsely section */
+    .seamessly-head {
+        font-size: 20px;
+        padding: 0.5vw 15vw;
+    }
+
+    .seamessly-para {
+        font-size: 10px;
+    }
+
+    .image-down-text {
+        font-size: 10px;
+    }
+
+    /* Technology */
+
+    .technology-head {
+        font-size: 5vw;
+    }
+
+    .mobile-parent {
+        padding-top: 6vw;
+    }
+
+    .technology-image {
+        width: 90vw;
+        height: 40vw;
+        object-fit: contain;
+    }
+
+}
+
+
+@media (max-width:780px) {
+    
+    /* HOME.LY GRAPHICAL FLOW */
+
+    .side-padding {
+        text-align: center;
+    }
+
+    .homely-head {
+        font-size: 25px;
+    }
+
+    .real-estate-head {
+        font-size: 20px;
+    }
+
+    .real-estate-para {
+        font-size: 12px;
+        padding:0;
+    }
+
+    .parent-mobile {
+        flex-direction: column;
+        display: flex;
+        align-items: center;
+    }
+
+    .child-mobile {
+        flex-direction: column;
+        align-items: center;
+    }
+
+    .child-mobile-down {
+        flex-direction: column-reverse;
+        align-items: center;
+        padding-top: 50px;
+    }
+
+    .parent-text {
+        padding-top: 2vw;
+    }
+    .parent-up-text {
+        width: 90%;
+        text-align: center;
+    }
+
+    .parent-text {
+        width: 90%;
+        text-align: center;
+    }
+
+
+    /* ....Admin Panel.... */
+
+    .parent-admin-text {
+        text-align: center;
+    }
+
+    .admin-panel-head {
+        font-size: 4vw;
+        width: auto;
+        padding: 3vw 10vw;
+    }
+
+    .admin-panel-para {
+        width: auto;
+        font-size: 2.5vw;
+        padding: 0 8vw;
+
+    }
+
+    .parene-second-admin {
+        flex-wrap: wrap;
+        justify-content: start;
+    }
+
+    .parent-admin-card {
+        width: 49%;
+    }
+
+    .admin-panel-image {
+        width: 8vw;
+        height: 8vw;
+    }
+
+    .admin-card-head {
+        font-size: 3vw;
+    }
+
+    .admin-card-para  {
+        font-size: 2vw;
+    }
+
+
+    /* Development Company */
+
+    .child-development {
+        flex-wrap: wrap;
+        justify-content: start;
+    }
+
+    .development-card {
+        width: 49%;
+        padding-right: 5vw;
+        margin-bottom: 3vw;
+    }
+
+    .app-development-image {
+        width: 8vw;
+        height: 8vw;
+    }
+
+    .development-head {
+        font-size: 3vw;
+    }
+
+    .development-para {
+        font-size: 2vw;
+    }
+}
+
+
+@media (max-width:555px) {
+
+    .header-main-div {
+        margin: 2.5vw 0;
+    }
+
+    /* hero section */
+    .hero-home-image {
+        width: 20vw;
+        height: 8vw;
+    }
+
+    .hero-mobile {
+        width: 25vw;
+        height: 50vw;
+        object-fit: cover;
+    }
+
+    /* Seamlessly Connecting */
+
+    .seamessly-para {
+        padding: 0 5vw;
+    }
+
+    .connecting-parts {
+        flex-direction: column;
+    }
+
+    .seamless-parent {
+        width: 80%;
+    }
+
+    .propery-image {
+        width: 30vw;
+        object-fit: cover;
+        height: 30vw;
+        margin: 4vw 0;
+    }
+
+    .image-down-text {
+        font-size: 20px;
+    }
+
+    /* ....Admin Panel.... */
+
+    .parene-second-admin {
+        flex-direction: column;
+        align-items: center;
+    }
+    .admin-panel-head {
+        font-size: 6vw;
+        width: auto;
+        padding: 3vw 10vw;
+    }
+
+    .parent-admin-card {
+        width: 60%;
+        margin-bottom: 5vw;
+    }
+
+    .admin-panel-image {
+        width: 12vw;
+        height: 12vw;
+    }
+
+    .admin-card-head {
+        font-size: 4vw;
+    }
+
+    .admin-card-para  {
+        font-size: 2.5vw;
+    }
+
+    /* development company */
+    
+    .child-development {
+        flex-direction: column;
+        align-items: center;
+        text-align: center;
+    }
+
+    .development-card {
+        width: 70%;
+        margin-bottom: 6vw;
+    }
+
+    .app-development-image {
+        width: 15vw;
+        height: 15vw;
+    }
+
+    .development-head {
+        font-size: 4vw;
+    }
+
+    .development-para {
+        font-size: 2.5vw;
+    }
+
+}
+
+@media (max-width:400px) {
+
+    /* HOME.LY GRAPHICAL FLOW */
+
+    .mobiles-images {
+        width: 22vw;
+        height: 40vw;
+        object-fit: contain;
+    }
+
+}
